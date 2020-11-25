@@ -1,0 +1,131 @@
+.list-header{
+	list-style: none;
+	float: right;
+	margin: 10px;
+	padding: 10px;
+}
+
+.list-header ul{
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    display: inline;
+    text-decoration: none;
+}
+ 
+
+.navbar{
+    background: #F6DA14;
+    font-size: 130%;
+}
+
+.navbar .nav-item .nav-link{
+    color: black;
+    font-weight: bold;
+}
+
+/*BARRA DE INICIO, CATALOGO Y NOSOTROS*/
+.list-header{
+    list-style: none;
+	float: right;
+	margin: 10px;
+	padding: 10px;
+}
+
+.list-header ul{
+	display: inline;
+}
+
+.list-header button{
+	border: 1px solid #f1c40f;
+	background-color: #f1c40f;
+}
+
+.list-header button:hover{
+    border-bottom: 2px solid white; 
+}
+
+.catalog-list{
+	background-color: #f6e58d;
+	margin: 10px;
+	padding: 10px;
+}
+
+
+
+/*FOOTER*/
+.pie{
+	padding: 20px;
+	margin: 10px;
+	background-color: #2d3436;
+	color: #f1c40f;
+	text-align: center;
+}
+
+/*SUBHEADER*/
+
+.subheader{
+	margin: 10px;
+	padding: 10px;
+}
+
+header{
+	background-color: #f1c40f;
+	padding: 20px;
+	margin: 20px;
+}
+
+
+.container-quienes{
+    background-image: url(../img/limbo.png);
+    padding: 250px;
+    background-size: cover;
+    z-index: -1;
+}
+
+.quienes{
+	text-align: center;
+	color: #f1c40f;
+	z-index: 1;
+}
+
+.container-objetivos{
+    background-image: url(../img/tunche.jpg);
+    padding: 250px;
+    background-size: cover;
+    z-index: -1;
+}
+
+.objetivos{
+	text-align: center;
+	color: #f1c40f;
+	z-index: 1;
+}
+
+footer{
+	margin: 10px;
+	padding: 10px;
+	color: #f1c40f;
+	background-color: #535c68;
+	text-align: center;
+}
+
+
+.list-header button{
+    border-color: #f1c40f;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f1c40f; 
+    border: 0px #f1c40f;
+}
+
+
+.list-header button:hover{
+    border-bottom: 2px solid white; 
+}
+
+.nos-list{
+	background-color: #f6e58d;
+	margin: 10px;
+	padding: 10px;
+}
