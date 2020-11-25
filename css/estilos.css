@@ -43,3 +43,25 @@ i{
     width:20%;
 }
 
+
+.login-form{
+	padding: 500%;
+	background:#fff;
+}
+.dropdown-menu{
+	position: absolute;
+	width: 410px;
+	left:820px;
+}
+
+.redes{
+	padding:10px;
+}
+
+
+.redes-s{
+	font-size: 110%;	
+	background-color: #c0bcbcbe;
+	padding: 10px;
+}
+

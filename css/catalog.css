@@ -3,6 +3,9 @@ header {
 	background-color: #f1c40f;
 }
 
+body{
+	background-color: black;
+}
 
 
 .navbar{
@@ -37,21 +40,13 @@ header {
 }
 
 .catalog-list{
-	background-color: #f6e58d;
+	background-color: black;
 	margin: 10px;
 	padding: 10px;
 }
 
 
 
-/*FOOTER*/
-.pie{
-	padding: 20px;
-	margin: 10px;
-	background-color: #2d3436;
-	color: #f1c40f;
-	text-align: center;
-}
 
 /*SUBHEADER*/
 
@@ -80,16 +75,12 @@ header {
     border-bottom: 2px solid white; 
 }
 
-.catalog-list{
-	background-color: #f6e58d;
-	margin: 10px;
-	padding: 10px;
-}
+
 
 /*BARRA DE NAVEGACION	*/
 
 .barra-nav {
-	background-color: #2d3436;
+	background-color: black;
 	float: left;
 	list-style: none;
 	height: absolute;
@@ -145,5 +136,29 @@ ul a{
 
 .subheader{
 	margin: 10px;
+	padding: 10px;
+}
+.tienda{
+    width:20%;
+}
+
+.login-form{
+	padding: 500%;
+	background:#fff;
+}
+.dropdown-menu{
+	position: absolute;
+	width: 410px;
+	left:820px;
+}
+
+.redes{
+	padding:10px;
+}
+
+
+.redes-s{
+	font-size: 110%;	
+	background-color: #c0bcbcbe;
 	padding: 10px;
 }

@@ -1,27 +1,12 @@
-.list-header{
-	list-style: none;
-	float: right;
-	margin: 10px;
-	padding: 10px;
-}
-
-.list-header ul{
-    text-align: center;
-    margin: 10px;
-    padding: 5px;
-    display: inline;
-    text-decoration: none;
-}
- 
-
 .navbar{
     background: #F6DA14;
-    font-size: 130%;
+	font-size: 130%;
 }
 
 .navbar .nav-item .nav-link{
     color: black;
-    font-weight: bold;
+	font-weight: bold;
+	
 }
 
 /*BARRA DE INICIO, CATALOGO Y NOSOTROS*/
@@ -45,70 +30,43 @@
     border-bottom: 2px solid white; 
 }
 
-.catalog-list{
-	background-color: #f6e58d;
-	margin: 10px;
-	padding: 10px;
-}
-
-
-
-/*FOOTER*/
-.pie{
-	padding: 20px;
-	margin: 10px;
-	background-color: #2d3436;
-	color: #f1c40f;
-	text-align: center;
-}
-
-/*SUBHEADER*/
-
-.subheader{
-	margin: 10px;
-	padding: 10px;
-}
-
-header{
-	background-color: #f1c40f;
-	padding: 20px;
-	margin: 20px;
-}
-
 
 .container-quienes{
-    background-image: url(../img/limbo.png);
-    padding: 250px;
-    background-size: cover;
-    z-index: -1;
+    background-image: url(../img/portadanosotros.jpg);
+	background-size: cover;
 }
 
+.background-overlay{
+	background:rgba(0, 0, 0, 0.8);
+	top:0;
+	left:0;
+	width: 100%;
+	height:100%;
+}
 .quienes{
 	text-align: center;
-	color: #f1c40f;
+	font-weight: bold;
+	color: white;
+	font-size: 140%;
 	z-index: 1;
+	
 }
 
 .container-objetivos{
-    background-image: url(../img/tunche.jpg);
-    padding: 250px;
-    background-size: cover;
-    z-index: -1;
+	background-color: white;
+	background-size: cover;
+	
 }
 
 .objetivos{
 	text-align: center;
-	color: #f1c40f;
+	font-weight: bold;
+	color: black;
+	font-size: 140%;
 	z-index: 1;
 }
 
-footer{
-	margin: 10px;
-	padding: 10px;
-	color: #f1c40f;
-	background-color: #535c68;
-	text-align: center;
-}
+
 
 
 .list-header button{
@@ -129,3 +87,32 @@ footer{
 	margin: 10px;
 	padding: 10px;
 }
+.tienda{
+    width:20%;
+}
+
+.team{
+	background-color: #F6DA14;
+}
+
+.login-form{
+	padding: 500%;
+	background:#fff;
+}
+.dropdown-menu{
+	position: absolute;
+	width: 410px;
+	left:820px;
+}
+
+.redes{
+	padding:10px;
+}
+
+
+.redes-s{
+	font-size: 110%;	
+	background-color: #c0bcbcbe;
+	padding: 10px;
+}
+
