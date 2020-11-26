@@ -7,10 +7,15 @@
 .navbar .nav-item .nav-link{
     color: black;
 	font-weight: bold;
+	
 }
 
 .navbar-brand{
 	width: 80%;
+}
+
+.logo{
+	width: 25%;
 }
 
 /*MENU DESPLEGABLE INICIAR SESION*/
@@ -56,6 +61,10 @@
 /*SECCIÓN TEAM*/
 .team{
 	background-color: #F6DA14;
+}
+
+.redescards{
+	font-size: 70%;
 }
 
 /*FOOTER*/
