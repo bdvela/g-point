@@ -1,2 +1,5 @@
 # bdvela.github.io
-Landing Page curso IHC y Tecnologías móviles
+Landing Page del curso IHC y Tecnologías Móviles
+
+![Screenshot](creenshot-landingpage.png)
+
