@@ -1,3 +1,4 @@
+/*MENU NAVEGACIÓN*/
 .navbar{
     background: #F6DA14;
 	font-size: 130%;
@@ -6,99 +7,13 @@
 .navbar .nav-item .nav-link{
     color: black;
 	font-weight: bold;
-	
 }
 
-/*BARRA DE INICIO, CATALOGO Y NOSOTROS*/
-.list-header{
-    list-style: none;
-	float: right;
-	margin: 10px;
-	padding: 10px;
+.navbar-brand{
+	width: 80%;
 }
 
-.list-header ul{
-	display: inline;
-}
-
-.list-header button{
-	border: 1px solid #f1c40f;
-	background-color: #f1c40f;
-}
-
-.list-header button:hover{
-    border-bottom: 2px solid white; 
-}
-
-
-.container-quienes{
-    background-image: url(../img/portadanosotros.jpg);
-	background-size: cover;
-}
-
-.background-overlay{
-	background:rgba(0, 0, 0, 0.8);
-	top:0;
-	left:0;
-	width: 100%;
-	height:100%;
-}
-.quienes{
-	text-align: center;
-	font-weight: bold;
-	color: white;
-	font-size: 140%;
-	z-index: 1;
-	
-}
-
-.container-objetivos{
-	background-color: white;
-	background-size: cover;
-	
-}
-
-.objetivos{
-	text-align: center;
-	font-weight: bold;
-	color: black;
-	font-size: 140%;
-	z-index: 1;
-}
-
-
-
-
-.list-header button{
-    border-color: #f1c40f;
-    margin: 10px;
-    padding: 10px;
-    background-color: #f1c40f; 
-    border: 0px #f1c40f;
-}
-
-
-.list-header button:hover{
-    border-bottom: 2px solid white; 
-}
-
-.nos-list{
-	background-color: #f6e58d;
-	margin: 10px;
-	padding: 10px;
-}
-.tienda{
-    width:20%;
-}
-
-.team{
-	background-color: #F6DA14;
-}
-
-.login-form{
-	padding: 500%;
-	background:#fff;
-}
+/*MENU DESPLEGABLE INICIAR SESION*/
 .dropdown-menu{
 	position: absolute;
 	width: 410px;
@@ -106,13 +21,50 @@
 }
 
 .redes{
-	padding:10px;
+	padding:11px;
 }
-
 
 .redes-s{
 	font-size: 110%;	
-	background-color: #c0bcbcbe;
+	background-color: #ece8e8b4;
 	padding: 10px;
 }
+
+
+/*SECCIÓN QUIENES SOMOS*/
+.container-quienes{
+    background-image: url(../img/portadanosotros.jpg);
+	background-size: cover;
+}
+
+.background-overlay{
+	background:rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height:100%;
+}
+
+.quienes{
+	font-size: 140%;	
+}
+
+
+/*SECCIÓN OBJETIVOS*/
+.objetivos{
+	font-size: 140%;
+}
+
+/*SECCIÓN TEAM*/
+.team{
+	background-color: #F6DA14;
+}
+
+/*FOOTER*/
+.tienda{
+    width:20%;
+}
+
+i{
+	font-size: 230%;
+ }
+ 
 

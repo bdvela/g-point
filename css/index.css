@@ -1,4 +1,4 @@
-
+/*MENU BARRA DE NAVEGACIÓN*/
 .navbar{
     background: #F6DA14;
     font-size: 130%;
@@ -7,22 +7,50 @@
 .navbar .nav-item .nav-link{
     color: black;
     font-weight: bold;
+    
 }
 
+/*MENU DESPLEGABLE INICIAR SESION*/
+.dropdown-menu{
+	position: absolute;
+	width: 410px;
+	left:820px;
+}
+
+.redes{
+	padding:11px;
+}
+
+
+.redes-s{
+	font-size: 110%;	
+	background-color: #c0bcbcbe;
+	padding: 10px;
+}
+
+
+/*PORTADA*/
 .main-header{
     position: relative;
     background: url(../img/fondo.jpg);
     background-size: cover;
 }
 
+/*INFO*/
 .info{
     padding: 5% 0 5% 0;
 }
 
+/*GAMER*/
 .img-beneficios{
     width: 30%;
 }
 
+.beneficios{
+    padding: 5% 0 10% 0;
+}
+
+/*DESARROLLADOR*/
 .bg-color{
     background: #F6DA14;
 }
@@ -35,8 +63,9 @@
     padding: 5% 0 10% 0;
 }
 
+/*FOOTER*/
 i{
-   font-size: 200%;
+   font-size: 230%;
 }
 
 .tienda{
@@ -44,24 +73,4 @@ i{
 }
 
 
-.login-form{
-	padding: 500%;
-	background:#fff;
-}
-.dropdown-menu{
-	position: absolute;
-	width: 410px;
-	left:820px;
-}
-
-.redes{
-	padding:10px;
-}
-
-
-.redes-s{
-	font-size: 110%;	
-	background-color: #c0bcbcbe;
-	padding: 10px;
-}
 

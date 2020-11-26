@@ -1,0 +1,69 @@
+body{
+	background-color: black;
+}
+/*MENU NAVEGACIÓN */
+.navbar{
+    background: #F6DA14;
+    font-size: 130%;
+}
+
+.navbar .nav-item .nav-link{
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-brand{
+	width: 80%;
+}
+
+
+/*MENU DESPLEGABLE INICIAR SESION*/
+.dropdown-menu{
+	position: absolute;
+	width: 410px;
+	left:820px;
+}
+
+.redes{
+	padding:11px;
+}
+
+.redes-s{
+	font-size: 110%;	
+	background-color: #ece8e8b4;
+	padding: 10px;
+}
+
+/*MENU BUSQUEDA*/
+.barra-nav {
+	float: left;
+	list-style: none;
+}
+
+.title-nav{
+	margin: 30px;
+	text-align: center;
+}
+
+.caja-texto{
+	margin: 40px;
+	padding: 5px;
+	border-radius: 10px;
+	text-align: left;
+	color: #7f8c8d;
+}
+
+ul a{
+	color: #f1c40f;
+}
+
+/*FOOTER*/
+.tienda{
+    width:20%;
+}
+
+i{
+	font-size: 230%;
+ }
+ 
+
