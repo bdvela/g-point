@@ -1,3 +1,3 @@
-# [G-POINT](www.bdvela.github.io)
+# [G-POINT](https://bdvela.github.io)
 ![Screenshot](screenshot-landingpage.png)
 
